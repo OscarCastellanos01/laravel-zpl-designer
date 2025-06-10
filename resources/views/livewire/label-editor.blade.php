@@ -42,13 +42,13 @@
               <label>Altura (mm)
                 <input type="number"
                        wire:model.live.debounce.150ms="elements.{{ $i }}.height"
-                       step="0.1"
+                       step="1"
                        class="mt-1 w-full rounded border-gray-300 focus:ring-indigo-500" />
               </label>
               <label>Ancho (mm)
                 <input type="number"
                        wire:model.live.debounce.150ms="elements.{{ $i }}.width"
-                       step="0.1"
+                       step="1"
                        class="mt-1 w-full rounded border-gray-300 focus:ring-indigo-500" />
               </label>
   
